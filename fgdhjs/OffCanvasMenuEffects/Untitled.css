@@ -1,0 +1,28 @@
+/*menu Hamburguer*/
+.btnMenuHamb{
+	color: white;
+	font-size: 23px;
+}
+.btnMenu  {
+  color: #333;
+  background-color: #fff;
+  border-color: #ccc;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.2s;
+  -webkit-transition-property: color, transform, background-color, ease-in-out;
+  transition-property: color, transform, background-color, ease-in-out;
+
+}
+
+.btnMenu:hover  {
+  background-color: #E4342D ;
+  transform: rotate(90deg);
+  border-radius: 100px;
+}
+
+.btnMenu:active  {
+background: #000000;
+  -webkit-transform: rotate(90deg);
+  transform: rotate(90deg);
+
+}
